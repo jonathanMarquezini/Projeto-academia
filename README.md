@@ -9,9 +9,9 @@ Este é o meu primeiro projeto de website, desenvolvido com o objetivo de pratic
 
 ## ✨ Funcionalidades
 
-O site simula uma página de academia e inclui:
+O projeto é uma página simples de academia, com as seguintes seções:
 
-* Seção "Sobre Nós"
-* Seção de "Serviços"
-* Galeria de imagens (se houver)
-* Formulário de contato (se houver)
+* **Página Inicial:** Uma visão geral do conceito do site.
+* **Serviços:** Detalhes dos serviços oferecidos.
+* **Contato:** Informações para contato.
+* **Sobre:** Uma descrição da academia e sua história.
