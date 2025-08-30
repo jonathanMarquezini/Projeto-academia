@@ -1,2 +1,17 @@
-# Projeto-academia
-eu **primeiro site web**, desenvolvido para praticar conceitos de **HTML**, **CSS** e um pouco de **JavaScript**.   O objetivo é simular uma página simples de academia, com foco em treinar estrutura, estilização e organização de código.
+# Projeto Academia: Meu Primeiro Website
+
+Este é o meu primeiro projeto de website, desenvolvido com o objetivo de praticar e consolidar conceitos fundamentais de desenvolvimento web.
+
+## 🚀 Tecnologias Utilizadas
+
+* **HTML:** Para a estrutura e marcação da página.
+* **CSS:** Para a estilização e design do site.
+
+## ✨ Funcionalidades
+
+O site simula uma página de academia e inclui:
+
+* Seção "Sobre Nós"
+* Seção de "Serviços"
+* Galeria de imagens (se houver)
+* Formulário de contato (se houver)
