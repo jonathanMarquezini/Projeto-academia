@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    margin-bottom: 40px;
+}
+
+header {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+header .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .center h3{
+    margin-top: 2%;
+    color: white;
+    font-size: 1em;
+    transition: 0.9s;
+    cursor: pointer;
+}
+header .center i:hover{
+    color: rgba(255, 0, 0, 0.658);
+}
+header .center h3:hover{
+    color: rgba(255, 0, 0, 0.658);
+}
+header .center .menu a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: 0.9s;
+    line-height: 45px;
+    padding: 0px 10px;
+}
+header .center .menu a:hover {
+    color: rgba(255, 0, 0, 0.658);
+}
+.corpo .texto{
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    right: 15%;
+}
+.corpo .texto h4 {
+    margin-left: 152px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-weight: normal;
+    font-size: 1.7em;
+}
+.corpo .texto p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-weight: normal;
+    font-size: 1.7em;
+}
+
+/* formulario */
+
+.linhas {
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+    grid-template-rows: repeat(2, .5fr);
+}
+
+.linhas .texto {
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.linhas .texto h1 {
+    font-size: 2.7rem;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.linhas .texto .paragrafo p{
+    font-size: 1.3rem;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.linhas .texto .icons {
+    margin-top: 2%;
+}
+
+.linhas .texto .icons i{
+    margin-right: 2%;
+    font-size: 30px;
+}
+.linhas .texto .icons .bi-whatsapp{
+    color: green;
+}
+
+.linhas .texto .icons .bi-facebook{
+    color: blue;
+}
+
+.linhas .texto .icons .bi-instagram {
+    color: #ff6b6bb0;
+}
+
+.linhas .texto .icons .bi-twitter {
+    color: rgb(0, 132, 255);
+}
+
+.contato {
+    margin-top: 15%;   
+}
+
+.contato input {
+    margin-left: 10%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    font-family: "Bebas Neue", sans-serif;
+}
+.contato textarea {
+    margin-left: 10%;
+    padding: 7px;
+    width: 500px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    font-family: "Bebas Neue", sans-serif;
+}
+.contato button {
+    margin-left: 10%;
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    font-family: "Bebas Neue", sans-serif;
+    transition: all .6s;
+    cursor: pointer;
+}
+.contato button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .contato {
+        margin-right: 100%;
+        padding-bottom: 10px;
+    }
+
+    .contato input {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .linhas {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .linhas .texto {
+        margin: auto;
+        text-align: center;
+    }
+
+    .contato {
+        margin: auto;
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header .center .menu a {
+        font-size: 1.05rem; 
+    }   
+
+    .linhas .texto h1 {
+        font-size: 2rem;
+    }
+
+    .linhas .texto .paragrafo p {
+        font-size: 1rem;
+    }
+
+    .linhas .texto .icons i {
+        font-size: 1.5rem;
+    }
+
+    .contato form {
+        margin: auto;
+    }
+
+    .contato form input {
+        width: 80%;
+    }
+
+    .contato form textarea {
+        width: 80%;
+    }
+
+    .contato form button {
+        font-size: .85rem;
+        width: 100px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header .center .logo h3 {
+        font-size: 1rem;
+    }
+
+    header .center .menu a {
+        font-size: .9rem;
+    }
+
+    .linhas .texto h1 {
+        font-size: 1.7rem;
+    }
+
+    .linhas .texto .paragrafo p {
+        font-size: .85rem;
+    }
+
+    .linhas .texto .icons i {
+        font-size: 1.2rem;
+    }   
+}
+
+@media screen and (max-width: 320px) {
+    header .center .logo h3 {
+        font-size: .8rem;
+    }
+
+    header .center .menu a {
+        font-size: .7rem;
+    }   
+}
